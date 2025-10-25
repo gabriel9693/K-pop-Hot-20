@@ -3,7 +3,7 @@
         "position": 1,
         "title": "JUMP",
         "artist": "BLACKPINK",
-        "cover": "..images/jump.jpg", 
+        "cover": "./images/jump.jpg", 
         "points": 889.9,
         "trend": "same",
         "trendChange": null,
