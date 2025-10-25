@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Sequel Sans'; 
+    src: url('../Sequel_Sans_Black_Body.ttf') format('truetype');
+    font-weight: 700; 
+    font-style: normal;
+}
+
+:root {
+    --sequel-sans: 'Sequel Sans', sans-serif;
+    --arial-black: 'Arial Black', sans-serif;
+    --arial: 'Arial', sans-serif;
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html { 
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+h1 {
+    font-size: 4.8rem;
+}
+
+.chart-container {
+    margin: 0 auto;
+    max-width: 1500px;
+    margin-top: 2rem;
+    background-color: #484848;
+    border-radius: 2rem;
+    padding: 2rem;
+    overflow-x: auto;
+}
+
+.entry {
+    font-size: 2.4rem;
+    border-bottom: 1px solid gray;
+    /* gap: 10rem; */
+    padding: 1rem 1rem;
+    gap: 2rem;
+}
+
+.position {
+    font-size: 3.2rem;
+    font-family: var(--sequel-sans);
+    padding-left: 2rem;
+    display: inline-block;
+}
+
+.gold, .title.gold {
+    color: #ffd500;
+}
+
+.silver, .title.silver {
+    color: #bbc2cc;
+}
+
+.bronze, .title.bronze {
+    color: #ce8946; 
+}
+
+.position-hash {
+    font-size: 2.4rem;
+}
+
+.cover-art {
+    width: 7rem;
+    border-radius: 10%;
+}
+
+.title {
+    /* color: orangered; */
+    color: #3ccbff;
+    font-family: var(--arial-black);
+}
+
+.title-heading {
+    color: #fff;
+    font-family: var(--arial);
+}
+
+.artist {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.combine {
+    display: flex; 
+    align-items: center;
+    gap: 2rem;
+}
+
+.song {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.entry, .entry-header {
+    display: grid;
+    grid-template-columns: 6rem 1fr 8rem 8rem 8rem 8rem 8rem;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+
+.delta {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.delta-img {
+    width: 3.2rem; 
+    height: 3.2rem;
+}
+
+.equal {
+    margin-left: 1rem;
+}
+
+.new {
+    width: 5.5rem; 
+    height: 5.5rem;
+}
+
+.points, .delta, .peak, .number-ones, .months {
+    font-weight: 700;
+}
+
+.entry-header {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom: 2px solid #666;
+    color: #7278fc;
+}
+
+.download-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 2rem;
+}
+
+.downloads {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.download-card {
+    font-size: 2.4rem;
+    display: inline-block; 
+    background-color: #484848;
+    padding: 1.2rem 1.2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.download-card:hover {
+    background-color: #393838;
+    transition: 0.2s;
+}
+
+.site-header {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    background: linear-gradient(90deg, #1f4e79, #1c5e9c);
+    border-radius: 1rem;
+    margin: 2rem auto;
+    max-width: 1500px;
+    color: #fff;
+    
+}
+
+.site-title {
+    font-size: 4.8rem;
+    font-family: var(--arial-black);
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 4px 2px #5b9bd5;
+}
+
+.site-subtitle {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+#dropdown {
+    font-size: 1.8rem;
+    font-weight: 700;
+}

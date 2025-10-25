@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K-pop Hot 20</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/queries.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="site-title">K-pop Hot 20™</h1>
+      <p class="site-subtitle">
+        Based on MelOn, YT Music Korea, Genie, Bugs • <a href="number-ones.html">#1 Hits 🔗</a> • <a href="https://discord.gg/8a7dM6RThK">Discord 🔗</a>
+      </p>
+      <label for="chart-select" id="dropdown">Month of </label>
+      <select id="chart-select">
+        <option value="january.json">January 2025</option>
+        <option value="february.json">February 2025</option>
+        <option value="march.json">March 2025</option>
+        <option value="april.json">April 2025</option>
+        <option value="may.json">May 2025</option>
+        <option value="june.json">June 2025</option>
+        <option value="july.json">July 2025</option>
+        <option value="august.json">August 2025</option>
+        <option value="september.json" selected>September 2025</option>
+      </select>
+    </header>
+
+
+
+    <div class="chart-container">
+      <main>
+        <section id="chart">
+          <div class="entry-header">
+            <span class="position">#</span>
+            <div class="combine">
+              <span class="title title-heading">Song</span>
+            </div>
+            <span class="points">Points</span>
+            <span class="delta">Trend</span>
+            <span class="peak">Peak</span>
+            <span class="number-ones">#1s</span>
+            <span class="months">Months</span>
+          </div>
+          <div id="chart-entries"></div>
+        </section>
+      </main>
+    </div>
+    
+    <script src="scripts/linksInNewTab.js"></script>
+    <script src="scripts/chartBuilder.js"></script>
+  </body>
+</html>
