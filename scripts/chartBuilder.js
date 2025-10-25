@@ -1,9 +1,9 @@
 const trendIcons = {
-    up: "./images/uparrow.png",
-    down: "./images/downarrow.png",
-    same: "./images/equalarrow.png",
-    new: "./images/new.png",
-    re_entry: "./images/re_entry.png"
+    up: "images/uparrow.png",
+    down: "images/downarrow.png",
+    same: "images/equalarrow.png",
+    new: "images/new.png",
+    re_entry: "images/re_entry.png"
 }
 
 function loadChart(fileName) {
