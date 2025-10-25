@@ -123,7 +123,7 @@
         "position": 11,
         "title": "Starting With You (feat. Park Da Hye)",
         "artist": "MAKTUB",
-        "cover": "images/starting_with_you_feat_park_da_hye.jpg",
+        "cover": "../images/starting_with_you_feat_park_da_hye.jpg",
         "points": 331.3,
         "trend": "new",
         "trendChange": null,
