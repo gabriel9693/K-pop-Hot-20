@@ -3,7 +3,7 @@ const trendIcons = {
     down: "../images/downarrow.png",
     same: "../images/equalarrow.png",
     new: "../images/new.png",
-    re_entry: "../images/re-entry.png"
+    re_entry: "../images/re_entry.png"
 }
 
 function loadChart(fileName) {
