@@ -14,7 +14,6 @@ function loadChart(fileName) {
 }
 
 const select = document.getElementById("chart-select"); 
-select.value = "october.json";
 loadChart(select.value);
 
 select.addEventListener("change", (e) => {
