@@ -43,27 +43,35 @@
     }
 
     .first::after {
-        content: " (3 months, 2 #1s)"
+        content: " (10 months, 2 #1s)"
     }
 
     .second::after {
-        content: " (5 months, 1 #1)";
+        content: " (4 months, 2 #1s)";
     }
 
     .third::after {
-        content: " (2 months, 1 #1)";
+        content: " (8 months, 1 #1)";
     }
 
     .fourth::after {
-        content: " (7 months, 1 #1)";
+        content: " (5 months, 1 #1)";
     }
 
     .fifth::after {
-        content: " (6 months, 1 #1)";
+        content: " (10 months, 1 #1)";
     }
 
     .sixth::after {
+        content: " (6 months, 1 #1)";
+    }
+    
+    .seventh::after {
         content: " (5 months, 1 #1)";
+    }
+    
+    .eighth::after {
+        content: " (10 months, 1 #1)";
     }
 }
 
